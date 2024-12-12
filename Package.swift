@@ -12,10 +12,6 @@ let package = Package(
     products: [
         .library(
             name: "DGCharts",
-            targets: ["DGCharts"]),
-        .library(
-            name: "DGChartsDynamic",
-            type: .static,
             targets: ["DGCharts"])
     ],
     targets: [
