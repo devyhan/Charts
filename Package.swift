@@ -13,7 +13,7 @@ let package = Package(
             targets: ["DGCharts"]),
         .library(
             name: "DGChartsDynamic",
-            type: .static,
+            type: .dynamic,
             targets: ["DGCharts"])
     ],
     targets: [
